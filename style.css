@@ -21,13 +21,7 @@
   align-items: center;
   justify-content: center;
 }
-.time{
-  color: #fff;
-  text-transform: uppercase;
-  width: 90%;
-  display: flex;
-  justify-content: center;
-}
+
 .middle{
   position: absolute;
   top: 50%;
@@ -35,13 +29,7 @@
   transform: translate(-50%,-50%);
   text-align: center;
 }
-.time span{
-  padding: 0 14px;
-  font-size: 10px;
-}
-.time span div{
-  font-size: 40px;
-}
+
 .newsletter{
   width: 90%;
 }
@@ -59,15 +47,8 @@
   border: 1px solid #ddd;
   outline: none;
 }
-.btn{
-  background: linear-gradient(125deg, #3498db,#34495e);
-  color: #fff;
-  cursor: pointer;
-  transition: .5s;
-}
-.btn:hover{
-  opacity: .7;
-}
+
+
 @media screen and (max-width: 900px){
   .col{
     flex: 100%;
